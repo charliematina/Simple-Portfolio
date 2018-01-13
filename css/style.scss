@@ -1,0 +1,391 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #ffffff;
+	font-family: proxima-nova, sans-serif;
+}
+
+nav{
+	width: 100%;
+	background-color: white;
+	z-index: 1;
+}
+
+footer{
+	padding: 0px 80px;
+	height: 140px;
+	display: none;
+	align-items: center;
+	justify-content: space-between;
+}
+
+h2{
+	font-size: 4.5em;
+	font-weight: 800;
+	letter-spacing: 0.3em;
+	margin-bottom: 20px;
+}
+
+h3{
+	letter-spacing: 0.3em;
+	margin-bottom: 10px;
+	font-size: 2.7em;
+}
+
+h4{
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+ul{
+	list-style-type: none;
+}
+
+
+#logo{
+	transition-duration: 300ms;
+}
+
+.wordmark{
+	font-weight: 700;
+	font-size: 1.3em;
+}
+
+#nav-items{
+	width: 100%;
+	height: 20vh;
+	padding: 0px 80px;
+	transition-duration: 500ms;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+#master-container{
+	width: 100%;
+	// padding-top: 20vh;
+}
+
+.flex-row{
+	display: flex;
+	flex-direction: row;
+}
+
+.col{
+	width: 33.33%;
+	height: 500px;
+	position: relative;
+}
+
+.project-overlay{
+	background-color: rgba(#000000, 0.75);
+	width: 100%;
+	height: 100%;
+	display: none;
+	color: white;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	position: relative;
+
+	h3{
+		margin-right: -0.3em;
+	}
+}
+
+.project-thumb{
+	cursor: pointer;
+	width: 100%;
+	overflow: hidden;
+
+	img{
+		height: 100%;
+		width: auto;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+
+.small-header{
+	font-size: 2.2em;
+	margin-right: -0.4em;
+}
+
+.nav-bar-menu-icon{
+	cursor: pointer;
+}
+
+#menu{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 0vh;
+	overflow: hidden;
+	transition-duration: 500ms;
+	position: relative;
+
+	span{
+		position: absolute;
+		bottom: 0;
+		padding-bottom: 150px;
+		display: none;
+	}
+
+	ul{
+		list-style-type: none;
+		font-size: 4em;
+		font-weight: 800;
+		text-align: center;
+		width: 100%;
+		padding-top: 100px;
+
+		li{
+			margin-bottom: 20px;
+		}
+	}
+}
+
+#about{
+	// display: none;
+	width: 80%;
+	margin: 0 auto;
+	font-size: 0.8em;
+	font-weight: 700;
+	transition-duration: 400;
+	position: relative;
+
+	p{
+		top: 0;
+		left: 0;
+		z-index: 2;
+		opacity: 0;
+	}
+}
+
+#black-block{
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 100%;
+	z-index: -2;
+	position: absolute;
+	background-color: black;
+	transition-duration: 600ms;
+}
+
+#white-block{
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 0%;
+	height: 100%;
+	position: absolute;
+	background-color: white;
+	transition-duration: 600ms;
+}
+
+#project-gallery-container{
+	display: none;
+}
+
+#single-project-container{
+	display: none;
+	width: 100%;
+	text-align: center;
+
+	p{
+		width: 60%;
+		margin: 0 auto;
+	}
+}
+
+.project-details{
+	padding-bottom: 20px;
+
+	li{
+		display: inline-block;
+		padding: 0px 20px;
+	}
+}
+
+.image-gallery{
+	width: 100%;
+	padding-top: 80px;
+
+	img{
+		width: 100%;
+		margin-bottom: 50px;
+		height: auto;
+		opacity: 1;
+ 		transition: opacity 0.3s;
+	}
+
+	img[data-src] {
+	  opacity: 0;
+	}
+}
+
+#footer-email{
+	display: block;
+	cursor: pointer;
+}
+
+#to-top{
+	font-size: 1.8em;
+	font-weight: 800;
+	cursor: pointer;
+	transition-duration: 200ms;
+
+	&:hover{
+		margin-top: -10px;
+	}
+}
+
+// Hamburger mobile-navbar-menu
+#hamburger-wrapper{
+	width: 100%;
+	margin: auto;
+	width: 40px;
+	height: 20px;
+	padding: 0.5em;
+	cursor: pointer;
+	position: relative;
+	z-index: 5;
+	text-align: center;
+
+		&:hover{
+			.burger-line{
+				width: 100% !important;
+			}
+		}
+}
+
+.burger-line{
+	width: 110%;
+	height: 5px;
+	background-color: #1f1f1f;
+	// margin-bottom: 4px;
+	transition-duration: 200ms;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+
+.mdl{
+	top: 15px;
+	width: 60%;
+}
+
+.rotate1{
+	transform: rotate(45deg);
+}
+
+.rotate2{
+	transform: rotate(-45deg);
+}
+
+
+// ===========================================================
+
+// MOBILE VIEWPORT CODE BELOW
+
+// ===========================================================
+
+@media screen and (max-width: 425px){
+
+	h2{
+		font-size: 2.2em;
+		letter-spacing: 0.4em;
+		margin-left: 0.4em;
+	}
+
+	#nav-items, footer{
+		padding: 0px 30px;
+	}
+
+	.flex-row{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.col{
+		width: 100%;
+		height: 300px;
+		position: relative;
+	}
+
+	#single-project-container{
+
+
+		p{
+			width: 80%;
+		}
+	}
+
+	.project-overlay{
+		display: none !important;
+	}
+
+	.project-thumb{
+		cursor: pointer;
+		width: 100%;
+		overflow: hidden;
+
+		img{
+			width: 100%;
+			min-height: 100%;
+			height: auto;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+
+	.wordmark{
+		font-size: 1em;
+	}
+
+	#menu{
+		ul{
+			padding-top: 15px;
+
+			li{
+				font-size: 0.4em;
+			}
+		}
+	}
+
+	.potrait img{
+		height: 100%;
+		width: auto;
+	}
+
+	.burger-line{
+		width: 100%;
+	}
+
+	.mdl{
+		top: 15px;
+		width: 100%;
+	}
+
+
+
+
+}
