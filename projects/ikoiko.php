@@ -1,4 +1,4 @@
-<div class="project-container" id="ikoiko">
+<div class="project-container" value="#ikoiko">
 	<h2>IKO IKO</h2>
 	<div class="project-details">
 		<ul>

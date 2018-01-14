@@ -18,10 +18,17 @@ $('#to-top').click(function(){
 	}, 700);
 });
 
-$('#ikoiko').click(function(){
-	$('#project-gallery-container, #footer-email').fadeOut();
-	$('#single-project-container, #to-top').fadeIn();
-});
+
+projectFadeIn('#ikoiko');
+projectFadeIn('#wordpress');
+
+function projectFadeIn(project){
+	$(project).click(function(){
+		$('#project-gallery-container').fadeOut();
+		$("div[value='"+project+"']").css('display','block');
+		$('#single-project-container, #to-top').fadeIn();
+	});
+}
 
 $(window).scroll(function(event) {
 	var scroll = $(window).scrollTop();

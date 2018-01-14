@@ -11,7 +11,7 @@
 					<p class="year">2014 - PRESENT</p>
 				</div>
 			</div>
-			<div class="col project-thumb potrait">
+			<div id="wordpress" class="col project-thumb potrait">
 				<img src="images/theme-thumb.jpg" alt="">
 				<div class="project-overlay">
 					<div>
@@ -67,5 +67,6 @@
 	</div>
 	<div id="single-project-container">
 		<?php require'projects/ikoiko.php' ?>
+		<?php require'projects/wordpress.php' ?>
 	</div>
 </div>
