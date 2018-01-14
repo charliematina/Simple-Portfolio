@@ -21,5 +21,6 @@
 		<img src="images/theme/hyde-01.jpg" alt="custom wordpress theme">
 		<img src="images/theme/hyde-02.jpg" alt="custom wordpress theme">
 		<img src="images/theme/hyde-03.jpg" alt="custom wordpress theme">
+		<img src="images/theme/hyde-04.jpg" alt="custom wordpress theme">
 	</div>
 </div>
