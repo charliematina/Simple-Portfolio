@@ -68,7 +68,7 @@ $('#hamburger-wrapper').click(function(event){
 		setTimeout(function(){$('#black-block').css('width','100%');}, 400);
 		setTimeout(function(){$('#about p').css('opacity','1');}, 1000);
 		setTimeout(function(){$('#white-block').css('width','100%');}, 1100);
-
+		setTimeout(function(){$('#black-block').css('opacity','0');}, 1500);
 
 		$menuOpen = true;
 	} else{

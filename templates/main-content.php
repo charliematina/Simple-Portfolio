@@ -8,6 +8,7 @@
 						<h3>IKO IKO</h3>
 						<p class="role">Graphic Design</p>
 					</div>
+					<p class="year">2014 - PRESENT</p>
 				</div>
 			</div>
 			<div class="col project-thumb potrait">
@@ -17,6 +18,7 @@
 						<h3 class="small-header">CUSTOM WORDPRESS THEME</h3>
 						<p class="role">Web Design / Development</p>
 					</div>
+					<p class="year">2017</p>
 				</div>
 			</div>
 			<div class="col project-thumb">
@@ -26,6 +28,7 @@
 						<h3>BEST ROUTE</h3>
 						<p class="role">Graphic + Web Design / Development</p>
 					</div>
+					<p class="year">2017</p>
 				</div>
 			</div>
 		</div>
@@ -37,6 +40,7 @@
 						<h3>FLOAT BOX</h3>
 						<p class="role">Graphic Design/Web Design & Devleopment</p>
 					</div>
+					<p class="year">2017</p>
 				</div>
 			</div>
 			<div class="col project-thumb">
@@ -46,6 +50,7 @@
 						<h3>IKO IKO</h3>
 						<p class="role">Graphic Designer</p>
 					</div>
+					<p class="year">2014 - PRESENT</p>
 				</div>
 			</div>
 			<div class="col project-thumb">
@@ -55,6 +60,7 @@
 						<h3>IKO IKO</h3>
 						<p class="role">Graphic Designer</p>
 					</div>
+					<p class="year">2014 - PRESENT</p>
 				</div>
 			</div>
 		</div>
