@@ -27,7 +27,6 @@ h2{
 	font-size: 4.5em;
 	font-weight: 800;
 	letter-spacing: 0.3em;
-	margin-bottom: 20px;
 }
 
 h3{
@@ -215,12 +214,24 @@ ul{
 }
 
 .project-details{
-	padding-bottom: 20px;
+	padding: 25px 0px 40px 0px;
 
 	li{
 		display: inline-block;
-		padding: 0px 20px;
+		text-align: left;
+		padding: 0px 40px;
+
 	}
+}
+
+.project-detail-label{
+	font-size: 0.7em;
+	margin-bottom: 5px;
+	letter-spacing: 0.6em;
+	opacity: 0.6;
+}
+
+.project-detail-info{
 }
 
 .image-gallery{
@@ -309,6 +320,11 @@ ul{
 
 @media screen and (max-width: 425px){
 
+	// All hidden elements
+	.project-details{
+		display: none;
+	}
+
 	h2{
 		font-size: 2.2em;
 		letter-spacing: 0.4em;
@@ -357,6 +373,10 @@ ul{
 		}
 	}
 
+	.description{
+		padding-top: 30px;
+	}
+
 	.wordmark{
 		font-size: 1em;
 	}
@@ -385,7 +405,58 @@ ul{
 		width: 100%;
 	}
 
+	.project-detail-label{
+		font-size: 0.5em;
+		margin-bottom: 5px;
+		letter-spacing: 0.6em;
+		opacity: 0.6;
+	}
+
+	.image-gallery{
+		padding-top: 35px;
+	}
 
 
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+
+	.col{
+		height: 270px;
+	}
+
+
+	#menu{
+		ul{
+			padding-top: 50px;
+
+			li{
+				font-size: 0.6em;
+			}
+		}
+	}
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+
+	.col{
+		height: 360px;
+	}
+
+	#menu{
+		ul{
+			padding-top: 50px;
+
+			li{
+				font-size: 0.7em;
+			}
+		}
+
+		span{
+			padding-bottom: 100px;
+		}
+	}
 
 }
