@@ -427,6 +427,10 @@ ul{
 
 	.image-gallery{
 		padding-top: 35px;
+
+		img{
+			margin-bottom: 10px;
+		}
 	}
 
 
@@ -452,6 +456,14 @@ ul{
 
 	.project-overlay{
 		display: none !important;
+	}
+
+	.image-gallery{
+		padding-top: 35px;
+
+		img{
+			margin-bottom: 10px;
+		}
 	}
 
 }

@@ -1,10 +1,10 @@
-<div class="project-container" value="#wordpress">
-	<h2>WORDPRESS THEME</h2>
+<div class="project-container" value="#bestroute">
+	<h2>BESTROUTE APP</h2>
 	<div class="project-details">
 		<ul>
 			<li>
 				<div class="project-detail-label">ROLE</div>
-				<div class="project-detail-info">Web Designer / Developer</div>
+				<div class="project-detail-info">Graphic & Web Designer / Developer</div>
 			</li>
 			<li>
 				<div class="project-detail-label">YEAR</div>
@@ -18,10 +18,8 @@
 	</div>
 	<p class="description">For this past 4 years I have been the In-House Graphic Designer for <a href="http://www.ikoiko.co.nz" target="_blank">Iko Iko</a>. I create material for both digital and print platforms, some examples of this are: Posters, greeting cards, website banners, social media graphics + more</p>
 	<div class="image-gallery">
-		<img src="images/theme/hyde-01.jpg" alt="custom wordpress theme">
-		<img src="images/theme/hyde-05.jpg" alt="custom wordpress theme">
-		<img src="images/theme/hyde-03.jpg" alt="custom wordpress theme">
-		<img src="images/theme/hyde-06.jpg" alt="custom wordpress theme">
-		<img src="images/theme/hyde-04.jpg" alt="custom wordpress theme">
+		<img src="images/bestroute/bestroute-01.jpg" alt="bestroute app project">
+		<img src="images/bestroute/bestroute-02.jpg" alt="bestroute app project">
+		<img src="images/bestroute/bestroute-03.jpg" alt="bestroute app project">
 	</div>
 </div>

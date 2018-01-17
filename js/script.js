@@ -21,12 +21,18 @@ $('#to-top').click(function(){
 
 projectFadeIn('#ikoiko');
 projectFadeIn('#wordpress');
+projectFadeIn('#bestroute');
+projectFadeIn('#floatbox');
 
 function projectFadeIn(project){
 	$(project).click(function(){
 		$('#project-gallery-container').fadeOut();
 		$("div[value='"+project+"']").css('display','block');
 		$('#single-project-container, #to-top').fadeIn();
+
+		$('html,body').animate({
+			scrollTop: 0
+		}, 500);
 	});
 }
 
