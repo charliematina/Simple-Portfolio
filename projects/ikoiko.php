@@ -16,7 +16,7 @@
 			</li>
 		</ul>
 	</div>
-	<p class="description">For this past 4 years I have been the In-House Graphic Designer for <a href="http://www.ikoiko.co.nz" target="_blank">Iko Iko</a>. I create material for both digital and print platforms, some examples of this are: Posters, greeting cards, website banners, social media graphics + <more class=""></more></p>
+	<p class="description">For this past 4 years I have been the In-House Graphic Designer for <a href="http://www.ikoiko.co.nz" target="_blank">Iko Iko</a>. I create material for both digital and print platforms, some examples of this are: Posters, greeting cards, website banners, social media graphics + more</p>
 	<div class="image-gallery">
 		<img src="images/ikoiko/ikoiko-01.jpg" alt="iko iko work">
 		<img data-src="images/ikoiko/ikoiko-02.jpg" src="" alt="iko iko work">

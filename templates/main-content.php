@@ -43,11 +43,11 @@
 					<p class="year">2017</p>
 				</div>
 			</div>
-			<div class="col project-thumb">
-				<img src="images/theme-thumb.jpg" alt="">
+			<div id="logos" class="col project-thumb">
+				<img src="images/logothumb.png" alt="">
 				<div class="project-overlay">
 					<div>
-						<h3>IKO IKO</h3>
+						<h3>LOGO COLLECTION</h3>
 						<p class="role">Graphic Designer</p>
 					</div>
 					<p class="year">2014 - PRESENT</p>
@@ -70,5 +70,6 @@
 		<?php require'projects/wordpress.php' ?>
 		<?php require'projects/bestroute.php' ?>
 		<?php require'projects/floatbox.php' ?>
+		<?php require'projects/logos.php' ?>
 	</div>
 </div>

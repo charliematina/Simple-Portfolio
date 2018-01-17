@@ -23,6 +23,7 @@ projectFadeIn('#ikoiko');
 projectFadeIn('#wordpress');
 projectFadeIn('#bestroute');
 projectFadeIn('#floatbox');
+projectFadeIn('#logos');
 
 function projectFadeIn(project){
 	$(project).click(function(){

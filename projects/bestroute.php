@@ -4,7 +4,7 @@
 		<ul>
 			<li>
 				<div class="project-detail-label">ROLE</div>
-				<div class="project-detail-info">Graphic & Web Designer / Developer</div>
+				<div class="project-detail-info">Graphic &amp; Web Designer / Developer</div>
 			</li>
 			<li>
 				<div class="project-detail-label">YEAR</div>
