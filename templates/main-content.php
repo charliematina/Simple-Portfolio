@@ -34,7 +34,7 @@
 		</div>
 		<div class="flex-row">
 			<div id="floatbox" class="col project-thumb">
-				<img src="images/behance-thumb.jpg" alt="">
+				<img src="images/behance-thumb-02.jpg" alt="">
 				<div class="project-overlay">
 					<div>
 						<h3>FLOAT BOX</h3>
@@ -48,19 +48,19 @@
 				<div class="project-overlay">
 					<div>
 						<h3>LOGO COLLECTION</h3>
-						<p class="role">Graphic Designer</p>
+						<p class="role">Graphic Design</p>
 					</div>
-					<p class="year">2014 - PRESENT</p>
+					<p class="year">2014 - 2017</p>
 				</div>
 			</div>
-			<div class="col project-thumb">
-				<img src="images/bestroute-thumb.jpg" alt="">
+			<div id="rich" class="col project-thumb">
+				<img src="images/rich-thumb.jpg" alt="">
 				<div class="project-overlay">
 					<div>
-						<h3>IKO IKO</h3>
-						<p class="role">Graphic Designer</p>
+						<h3>RICH COFFEE</h3>
+						<p class="role">Graphic Design</p>
 					</div>
-					<p class="year">2014 - PRESENT</p>
+					<p class="year">2015</p>
 				</div>
 			</div>
 		</div>
@@ -71,5 +71,6 @@
 		<?php require'projects/bestroute.php' ?>
 		<?php require'projects/floatbox.php' ?>
 		<?php require'projects/logos.php' ?>
+		<?php require'projects/rich.php' ?>
 	</div>
 </div>

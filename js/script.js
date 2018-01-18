@@ -24,6 +24,7 @@ projectFadeIn('#wordpress');
 projectFadeIn('#bestroute');
 projectFadeIn('#floatbox');
 projectFadeIn('#logos');
+projectFadeIn('#rich');
 
 function projectFadeIn(project){
 	$(project).click(function(){
